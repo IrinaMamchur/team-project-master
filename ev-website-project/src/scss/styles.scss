@@ -1,0 +1,28 @@
+/*
+   Import partials below
+*/
+@import 'reset';
+@import 'fonts';
+@import 'helpers/variables.scss';
+// COMPONENTS //
+@import 'components/container';
+@import 'components/container__forum.scss';
+@import 'components/visually-hidden.scss';
+@import 'components/clearfix.scss';
+@import 'components/page-header/index';
+@import 'components/main-header/index.scss';
+// Register Form
+@import 'components/form-container';
+@import 'components/register-form/index';
+// Messsage and Search
+@import 'components/message-form/index';
+@import 'components/forum-search/index.scss';
+// Forum thread
+@import 'components/forum-thread-section/index.scss';
+@import 'components/footer/footer.scss';
+// Other forum themes
+@import 'components/theme-list/index.scss';
+// FONT SIZES //
+html {
+  font-size: 10px;
+}

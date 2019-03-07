@@ -1,0 +1,26 @@
+.container__forum {
+  margin: 0 auto;
+  //min-width: 320px;
+  max-width: 720px;
+  //width: 720px;
+}
+
+@media (min-width: 1200px) {
+  .container__forum {
+    // margin-right: 0;
+    // margin-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 978px;
+    // display: flex;
+    // flex-wrap: wrap;
+    // width: 1150px;
+  }
+}
+
+@media (min-width: 1540px) {
+  .container__forum {
+    width: 65%;
+    max-width: 978px;
+  }
+}

@@ -1,0 +1,21 @@
+@media (min-width: 1200px) {
+  .l-theme {
+    //height: 506px;
+    position: sticky;
+    right: 0;
+    top: 0;
+    width: 498px;
+    //border: 1px solid rgb(241, 241, 241);
+    margin: 0 auto;
+    margin-left: 15px;
+  }
+
+  .c-theme-list__name {
+    // font-size: 20px;
+    letter-spacing: .01em;
+  }
+
+  .l-theme-list__button:last-of-type {
+    margin-bottom: 0;
+  }
+}
